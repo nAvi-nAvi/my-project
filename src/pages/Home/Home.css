@@ -1,0 +1,72 @@
+.home_page_background {
+    background: url('../../assets/Images/home_page_bg.jpg');
+
+    background-size: 100% 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* filter: blur(5px); */
+}
+
+.header {
+    text-align: center;
+    height: 20vh
+}
+
+.logo {
+    height: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 30%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-box {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 40px;
+    /* border-radius: 50px; */
+    /* border: 0; */
+    padding-left: 20px;
+    outline: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: black;
+    color: rgb(245, 74, 1);
+    border-bottom-color: red;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    border-style: solid; 
+    pointer-events:painted;
+
+}
+
+.label {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 20%;
+    padding: 20px;
+    color: rgb(218, 97, 5);
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
