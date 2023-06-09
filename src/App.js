@@ -10,7 +10,7 @@ function App() {
         <ToastContainer position='top-center' />
         <Routes>
           <Route exact path="/" element={<Home/>}/>
-          <Route path="/welcom" element={<Welcome/>}/>
+          <Route path="/welcome" element={<Welcome/>}/>
         </Routes>
     </BrowserRouter>
   );

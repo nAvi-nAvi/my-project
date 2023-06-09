@@ -1,0 +1,45 @@
+.header {
+    /* padding: 0px; */
+    box-sizing: border-box;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 251, 251);
+    background: linear-gradient(to right, white, #b5f5f5);
+}
+
+.logo {
+    height: 65px;
+    width: 65px;
+    margin-left: 100px;
+    margin-top: 20px
+}
+
+.search {
+    height: 25px;
+    flex: 1;
+    margin-right: 600px;
+    margin-left: 300px;
+    margin-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+   border-width: 1px;
+
+}
+
+.profile {
+    padding: 15px;
+    height: 30px;
+    width: 30px;margin-top: 6px;
+    border-radius: 50px;
+
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.logout {
+   margin: 20px;
+    
+}
